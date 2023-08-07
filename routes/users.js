@@ -6,8 +6,6 @@ const fs = require("fs/promises");
 
 const filePath = path.join(__dirname, "../data/users.json");
 
-// gets
-
 router.get("/", (req, res) => {
   fs.readFile(filePath)
     .then((fileData) => {
