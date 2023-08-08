@@ -1,8 +1,8 @@
 const { PORT = 3000 } = process.env;
-const express = require("express");
+const express = require('express');
 
 const app = express();
-const userRouter = require("./routes/users");
+const userRouter = require('./routes/users');
 const cardRouter = require("./routes/cards");
 
 app.use("/users", userRouter);
