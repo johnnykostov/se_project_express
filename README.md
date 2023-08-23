@@ -1,7 +1,7 @@
 # around-express
 
 This is a Back-End project. We set up an initial server, requests, routing and data processing.
-The project I use Node.js / Express.js / JSON / Postman
+The project I use Node.js / Express.js / JSON / man
 
 ## Running the Project
 
