@@ -15,7 +15,6 @@ const getUsers = async (req, res) => {
   }
 };
 
-
 const getUserById = async (req, res) => {
   try {
     const user = await User.findById(req.params.userId);
@@ -35,7 +34,6 @@ const getUserById = async (req, res) => {
     }
   }
 };
-
 
 const createUser = (req, res) => {
   const { name, about, avatar } = req.body;

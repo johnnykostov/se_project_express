@@ -17,11 +17,9 @@ const getCards = async (req, res) => {
   }
 };
 
-
 const createCard = async (req, res) => {
   const { name, link } = req.body;
   const { _id } = req.user;
-
 
   try {
     const card = new Card({
@@ -42,7 +40,6 @@ const createCard = async (req, res) => {
       .json({ error: 'An error occurred while creating the card.' });
   }
 };
-
 
 const deleteCard = async (req, res) => {
   const { cardId } = req.params;
